@@ -38,7 +38,7 @@
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link" data-toggle="dropdown" role="button">
                   <i class="ni ni-ui-04 d-lg-none"></i>
-                  <span class="nav-link-inner--text">Components</span>
+                  <span class="nav-link-inner--text">Dashboard Apps</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-lg">
                   <div class="dropdown-menu-inner">
@@ -112,6 +112,22 @@
       <section class="section section-fluid bg-gradient-default">
         <div class="container"></div>
       </section>
+      <section class="section section-fluid bg-gradient-default">
+        <div class="container">
+          <script>
+      <form action="mailto:votre-email@example.com" method="post" enctype="text/plain">
+        <label for="subject">Sujet:</label><br>
+        <input type="text" id="subject" name="subject"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send">
+        </form>
+
+      </script>
+        </div>
+      </section>
       <section class="section section-fluid section-shaped pb-250">
         <div class="shape shape-style-1 shape-secondary"><span></span>
             <span></span>
@@ -125,6 +141,44 @@
             </div>
         <div class="container py-lg-md d-flex">
           <div class="row">
+            <form action="https://formspree.io/f/xqkrnrlr" method="POST">
+              <div class="row">
+                <div class="col-sm col-sm-12 text-center">
+                  <div class="card bg-gradient-secondary shadow">
+                    <div class="card-body p-lg-5">
+                      <h4 class="mb-1">Contact us</h4>
+                      <p class="mt-0">Tell us about your project</p>
+                      <form action="https://formspree.io/https://formspree.io/f/xqkrnrlr" method="POST">
+                        <div class="row align-items-center justify-content-center my-2">
+                          <div class="col-sm col-sm-3 text-center my-2">
+                            <input class="input-group input-group-alternative" type="text" name="name" placeholder="enter  your name "/>
+                          </div>
+                          <div class="col-sm col-sm-3 text-center my-2">
+                            <input class="input-group input-group-alternative" type="email" name="email" placeholder="your mail"/>
+                          </div>
+                          <div class="col-sm col-sm-3 text-center my-2">
+                            <input class="input-group input-group-alternative" type="text" name="_subject" placeholder=" the Subject"/>
+                          </div>
+                          <br/>
+                        </div>
+                        <div class="col-sm col-sm-12 text-center my-2">
+                          <textarea class="input-group input-group-alternative" name="message" placeholder="your message" rows="8"></textarea>
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none"/>
+                        <input type="hidden" name="_next" value="/"/>
+                        <div class="row align-items-center justify-content-center">
+                          <div class="col-sm col-sm-6 text-center">
+                            <input class="btn btn-default btn-round btn-block btn-lg my-2" type="submit" value="Send"/>
+                          </div>
+                          <br/>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+              </div>
+            </form>
             <br/>
           </div>
         </div>
